@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dotnet60-basic-f08l
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images-protected:SqsOX-devfile-sample-dotnet60-basic-f08l
+      - image: quay.io/redhat-appstudio-qe/test-images-protected@sha256:c123d635e11eb322242787de96b5349d2f874edf136bffc366529ab0f278a069
         imagePullPolicy: Always
         name: main
         ports:
